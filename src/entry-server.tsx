@@ -20,8 +20,8 @@ export function head(locale: Locale): string {
     honorificSuffix: 'PhD',
     jobTitle:
       locale === 'pt'
-        ? 'Linguista computacional e engenheiro de PLN'
-        : 'Computational Linguist and NLP Engineer',
+        ? 'Linguista computacional, engenheiro de PLN e engenheiro de IA'
+        : 'Computational Linguist, NLP Engineer and AI Engineer',
     description: c.meta.description,
     url: SITE_URL + '/',
     image: `${SITE_URL}/jon.webp`,
@@ -36,6 +36,8 @@ export function head(locale: Locale): string {
       'Natural language processing',
       'Computational linguistics',
       'Large language models',
+      'AI engineering',
+      'LLMOps',
       'LLM evaluation',
       'Semantics',
       'Pragmatics',
