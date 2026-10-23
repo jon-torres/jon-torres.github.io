@@ -11,8 +11,8 @@ export function About({ c }: { c: Content }) {
           <figure className="portrait">
             <img
               src="/jon.webp"
-              width="900"
-              height="900"
+              width="800"
+              height="800"
               alt={c.about.photoAlt}
               loading="lazy"
               decoding="async"
