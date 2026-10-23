@@ -135,7 +135,7 @@ export const pt: Content = {
         lane: 'research',
         location: 'São Carlos',
         bullets: [
-          'Psicolinguística teórica, semântica e pragmática, com foco na linguagem de crianças com desenvolvimento atípico, em especial o autismo.',
+          'Psicolinguística teórica, semântica e pragmática. Estudei a linguagem de crianças com desenvolvimento atípico, em especial o autismo.',
         ],
       },
       {
