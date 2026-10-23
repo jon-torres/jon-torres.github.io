@@ -81,7 +81,8 @@ so and exits.
 
 ## Deploying
 
-Pushing to `main` runs `.github/workflows/deploy.yml`, which tests, builds and
+Every pull request runs the test and build job in `.github/workflows/deploy.yml`.
+Pushing to `main` runs the same job and then
 publishes `dist/` to GitHub Pages. The repository's Pages source is set to
 GitHub Actions.
 
