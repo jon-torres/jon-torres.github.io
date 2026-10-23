@@ -6,9 +6,9 @@ export const pt: Content = {
   htmlLang: 'pt-BR',
   path: '/pt/',
   meta: {
-    title: `${NAME}, linguista computacional e engenheiro de PLN`,
+    title: `${NAME}, linguista computacional, engenheiro de PLN e de IA`,
     description:
-      'Jonathan Torres é linguista computacional e engenheiro de PLN em São Paulo, doutor em Linguística pela USP. Pipelines de LLM, avaliação e ferramentas de revisão humana.',
+      'Jonathan Torres é linguista computacional, engenheiro de PLN e engenheiro de IA em São Paulo, doutor em Linguística pela USP. Pipelines de LLM, avaliação e ferramentas de revisão humana.',
   },
   nav: {
     about: 'Sobre',
@@ -252,7 +252,7 @@ export const pt: Content = {
   },
   contact: {
     heading: 'Contato',
-    lead: 'Aberto a conversas sobre PLN, avaliação de LLMs e vagas em que um linguista que entrega faz diferença.',
+    lead: 'Aberto a conversas sobre PLN, avaliação de LLMs e vagas de engenheiro de IA em que um linguista que entrega faz diferença.',
     emailLabel: 'E-mail',
     links: [
       { label: 'LinkedIn', href: LINKS.linkedin },
