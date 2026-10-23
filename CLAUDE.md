@@ -33,3 +33,6 @@ is in `docs/superpowers/specs/2026-10-22-strip-cloth-redesign-design.md`.
 - Jon reads the site as a reviewer with screenshots. He does not want captions
   that explain a chart ("the bars show..."), and he wants the Portuguese
   run through `pnpm check:pt` after every copy change.
+- The repo is public. Never commit code, paths, repo names or rule names from
+  Clarice's private codebase. `scripts/check-pt.py` stays gitignored, and PR
+  descriptions should not quote its internals either.
