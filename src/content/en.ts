@@ -170,7 +170,7 @@ export const en: Content = {
     projects: [
       {
         name: 'Automated support-call grader',
-        where: 'Slyng, 2024–2026',
+        where: 'Slyng, 2026',
         summary:
           'A pipeline of AI agents that reads customer-support transcripts and writes a complete evaluation report, plus a review portal where analysts approve or fix the result in a few clicks. The client went from monitoring under 1% of contacts to five times the coverage with the same team, at 77% less per evaluation.',
         stack: 'Python, LangChain, LangSmith, PostgreSQL, AWS',
