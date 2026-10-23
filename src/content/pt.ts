@@ -37,7 +37,7 @@ export const pt: Content = {
       'A maioria dos engenheiros não consegue dizer por que a saída de um modelo está errada em termos linguísticos, muito menos transformar isso numa avaliação. Eu consigo. A maioria dos linguistas para na teoria. Eu não paro, porque também sou engenheiro, e a análise vira produto rodando.',
       'Fora do expediente, cozinho, treino jiu-jitsu e sou supervisionado por uma gata preta que, ao contrário de mim, nunca bateu.',
     ],
-    photoAlt: 'Jonathan Torres, olhando para a câmera, de barba curta.',
+    photoAlt: 'Jonathan Torres sorrindo para a câmera, de camisa estampada.',
     languagesHeading: 'Línguas que falo',
     languages: [
       { name: 'Português', level: 4, note: 'nativo' },

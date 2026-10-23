@@ -37,7 +37,7 @@ export const en: Content = {
       "Most engineers can't say why a model's output is wrong in linguistic terms, let alone turn that into an evaluation. I can. Most linguists stop at the theory. I don't, because I'm an engineer as well, and the analysis ends up as a product that runs.",
       "Off the clock I cook, train Brazilian jiu-jitsu, and I'm supervised by a black cat who, unlike me, has never tapped.",
     ],
-    photoAlt: 'Jonathan Torres, looking at the camera, with a short beard.',
+    photoAlt: 'Jonathan Torres smiling at the camera, in a patterned shirt.',
     languagesHeading: 'Languages I speak',
     languages: [
       { name: 'Português', level: 4, note: 'native' },
