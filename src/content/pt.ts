@@ -173,7 +173,7 @@ export const pt: Content = {
         where: 'Slyng, 2024–2026',
         summary:
           'Um pipeline com agentes de IA que lê transcrições de atendimento ao cliente e escreve um relatório de avaliação completo, mais um portal em que os analistas aprovam ou corrigem o resultado em poucos cliques. O cliente saiu de menos de 1% dos contatos monitorados para cinco vezes a cobertura, com a mesma equipe e 77% menos custo por avaliação.',
-        stack: 'Python, LangChain, LangSmith, PostgreSQL, Azure',
+        stack: 'Python, LangChain, LangSmith, PostgreSQL, AWS',
         link: { label: 'Case publicado pela Slyng', href: LINKS.slyngCase },
       },
       {
