@@ -61,18 +61,22 @@ export function Work({ c }: { c: Content }) {
               </li>
             ))}
           </ul>
-          <h3 className="sub">{c.work.educationHeading}</h3>
-          <ul className="brief">
-            {c.work.education.map((e) => (
-              <li key={e.degree}>
-                <span className="brief__when">{e.years}</span>
-                <span>
-                  <strong>{e.degree}</strong>, {e.school}
-                </span>
-              </li>
-            ))}
-          </ul>
         </div>
+      </div>
+      <div className="wrap sec">
+        <div className="sec__label">
+          <h2 id="education-h">{c.work.educationHeading}</h2>
+        </div>
+        <ul className="brief sec__body" aria-labelledby="education-h">
+          {c.work.education.map((e) => (
+            <li key={e.degree}>
+              <span className="brief__when">{e.years}</span>
+              <span>
+                <strong>{e.degree}</strong>, {e.school}
+              </span>
+            </li>
+          ))}
+        </ul>
       </div>
       <div className="wrap sec sec--projects">
         <div className="sec__label">

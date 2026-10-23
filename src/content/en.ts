@@ -154,7 +154,7 @@ export const en: Content = {
       },
     ],
     earlierHeading: 'Earlier',
-    educationHeading: 'Degrees',
+    educationHeading: 'Education',
     education: [
       { degree: 'PhD in Linguistics', school: 'Universidade de São Paulo', years: '2018–2023' },
       { degree: "Master's in Linguistics", school: 'Universidade Federal de São Carlos', years: '2016–2018' },
