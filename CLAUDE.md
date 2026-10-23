@@ -26,3 +26,10 @@ is in `docs/superpowers/specs/2026-10-22-strip-cloth-redesign-design.md`.
 
 - Syne 800 is wide. Headings in the 19rem label column must stay under about
   2.75rem or words overflow into the content column.
+- Colour carries meaning, so it must agree across components. Job markers use
+  the chart's lane colour via `tileFor(name, hue)`; project markers use the
+  free hash of the full name, and the loom's "whole sentence" tile shows that
+  same mapping so visitors can verify it.
+- Jon reads the site as a reviewer with screenshots. He does not want captions
+  that explain a chart ("the bars show..."), and he wants the Portuguese
+  checked with Clarice after every copy change.
