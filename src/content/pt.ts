@@ -32,7 +32,7 @@ export const pt: Content = {
   about: {
     heading: 'Sobre',
     paragraphs: [
-      'Passei dez anos estudando como as pessoas querem dizer as coisas: semântica formal, pragmática e o jeito como crianças que aprendem português descobrem o que o "ou" implica. Depois fui construir os sistemas que precisam lidar com tudo isso em escala.',
+      'Passei dez anos estudando como as pessoas querem dizer as coisas: semântica formal, pragmática e o jeito como crianças que aprendem português descobrem o que o "ou" implica. O código esteve junto o tempo todo. Fiz a graduação com ênfase em PLN e tratei os dados do doutorado em Python.',
       'Desde 2023 trabalho com pipelines de LLM de ponta a ponta: desenho de prompts, avaliação, monitoramento, deploy e as ferramentas de revisão humana em volta deles. Na Slyng fui o primeiro contratado e construí um pipeline de monitoramento de atendimento que cortou o custo de cada análise em 77%. Na Brick Abode construí um pipeline que escreve testes unitários para linguagens procedurais do PostgreSQL. Hoje sou linguista computacional e engenheiro de PLN na Clarice.ai.',
       'A maioria dos engenheiros não consegue dizer por que a saída de um modelo está errada em termos linguísticos, muito menos transformar isso numa avaliação. Eu consigo. A maioria dos linguistas para na teoria. Eu não paro, porque também sou engenheiro, e a análise vira produto rodando.',
       'Fora do expediente, cozinho, treino jiu-jitsu e sou supervisionado por uma gata preta que, ao contrário de mim, nunca bateu.',

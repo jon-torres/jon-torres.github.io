@@ -32,7 +32,7 @@ export const en: Content = {
   about: {
     heading: 'About',
     paragraphs: [
-      'I spent ten years studying how people mean things: formal semantics, pragmatics, and how children learning Brazilian Portuguese work out what "or" implies. Then I moved to building the systems that have to cope with all of that at scale.',
+      'I spent ten years studying how people mean things: formal semantics, pragmatics, and how children learning Brazilian Portuguese work out what "or" implies. Code was there the whole time. My bachelor\'s had a concentration in natural language processing, and I handled my PhD data in Python.',
       "Since 2023 I've worked on LLM pipelines end to end: prompt design, evaluation, monitoring, deployment, and the human-in-the-loop tooling around them. At Slyng I was the first hire and built a customer-service monitoring pipeline that cut the cost of each analysis by 77%. At Brick Abode I built a pipeline that writes unit tests for PostgreSQL procedural languages. Now I'm a computational linguist and NLP engineer at Clarice.ai.",
       "Most engineers can't say why a model's output is wrong in linguistic terms, let alone turn that into an evaluation. I can. Most linguists stop at the theory. I don't, because I'm an engineer as well, and the analysis ends up as a product that runs.",
       "Off the clock I cook, train Brazilian jiu-jitsu, and I'm supervised by a black cat who, unlike me, has never tapped.",
