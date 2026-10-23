@@ -40,6 +40,7 @@ export function head(locale: Locale): string {
       'Semantics',
       'Pragmatics',
       'Language acquisition',
+      'Language development in autism',
     ],
     knowsLanguage: ['pt-BR', 'en', 'es', 'fr'],
   }

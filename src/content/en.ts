@@ -134,7 +134,9 @@ export const en: Content = {
         end: '2018-02',
         lane: 'research',
         location: 'São Carlos',
-        bullets: ['Theoretical psycholinguistics, semantics and pragmatics.'],
+        bullets: [
+          'Theoretical psycholinguistics, semantics and pragmatics, focused on language in children with atypical development, autism in particular.',
+        ],
       },
       {
         org: 'UFSCar',

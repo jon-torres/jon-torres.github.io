@@ -134,7 +134,9 @@ export const pt: Content = {
         end: '2018-02',
         lane: 'research',
         location: 'São Carlos',
-        bullets: ['Psicolinguística teórica, semântica e pragmática.'],
+        bullets: [
+          'Psicolinguística teórica, semântica e pragmática, com foco na linguagem de crianças com desenvolvimento atípico, em especial o autismo.',
+        ],
       },
       {
         org: 'UFSCar',
