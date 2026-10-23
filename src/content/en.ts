@@ -6,9 +6,9 @@ export const en: Content = {
   htmlLang: 'en',
   path: '/',
   meta: {
-    title: `${NAME}, computational linguist and NLP engineer`,
+    title: `${NAME}, computational linguist, NLP and AI engineer`,
     description:
-      'Jonathan Torres is a computational linguist and NLP engineer in São Paulo, with a PhD in Linguistics from the University of São Paulo. LLM pipelines, evaluation and human-in-the-loop tooling.',
+      'Jonathan Torres is a computational linguist, NLP engineer and AI engineer in São Paulo, with a PhD in Linguistics from the University of São Paulo. LLM pipelines, evaluation and human-in-the-loop tooling.',
   },
   nav: {
     about: 'About',
@@ -252,7 +252,7 @@ export const en: Content = {
   },
   contact: {
     heading: 'Contact',
-    lead: 'Open to conversations about NLP, LLM evaluation, and roles where a linguist who ships is useful.',
+    lead: 'Open to conversations about NLP, LLM evaluation, and AI engineer roles where a linguist who ships is useful.',
     emailLabel: 'Email',
     links: [
       { label: 'LinkedIn', href: LINKS.linkedin },
