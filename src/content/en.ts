@@ -34,8 +34,8 @@ export const en: Content = {
     paragraphs: [
       'I spent ten years studying how people mean things: formal semantics, pragmatics, and how children learning Brazilian Portuguese work out what "or" implies. Then I moved to building the systems that have to cope with all of that at scale.',
       "Since 2023 I've worked on LLM pipelines end to end: prompt design, evaluation, monitoring, deployment, and the human-in-the-loop tooling around them. At Slyng I was the first hire and built a customer-service monitoring pipeline that cut the cost of each analysis by 77%. At Brick Abode I built a pipeline that writes unit tests for PostgreSQL procedural languages. Now I'm a computational linguist and NLP engineer at Clarice.ai.",
-      "What I bring that most engineers don't: I can say why a model's output is wrong in linguistic terms, and turn that into an evaluation. What I bring that most linguists don't: I ship.",
-      "Off the clock I cook, and I'm supervised by a black cat.",
+      "Most engineers can't say why a model's output is wrong in linguistic terms, let alone turn that into an evaluation. I can. Most linguists stop at the theory. I don't, because I'm an engineer as well, and the analysis ends up as a product that runs.",
+      "Off the clock I cook, train Brazilian jiu-jitsu, and I'm supervised by a black cat who, unlike me, has never tapped.",
     ],
     photoAlt: 'Jonathan Torres, looking at the camera, with a short beard.',
     languagesHeading: 'Languages I speak',
@@ -50,7 +50,7 @@ export const en: Content = {
   },
   work: {
     heading: 'Work',
-    lead: 'Ten years of linguistics, then engineering. The bars show where each one starts.',
+    lead: 'Ten years of linguistics, then engineering.',
     laneLabels: { industry: 'Industry', research: 'Research', teaching: 'Teaching' },
     present: 'present',
     roles: [
@@ -106,7 +106,7 @@ export const en: Content = {
         lane: 'research',
         location: 'São Paulo',
         bullets: [
-          'Research on language acquisition, logic, semantics and pragmatics: how children acquire scalar implicatures in Brazilian Portuguese.',
+          'Research on language acquisition, logic, semantics and pragmatics, on how children acquire scalar implicatures in Brazilian Portuguese.',
           'Transcribed and proofread more than 100 hours of audio into an annotated corpus of spontaneous longitudinal speech.',
           'Worked with data from three large corpora.',
         ],
@@ -159,19 +159,20 @@ export const en: Content = {
       { degree: 'PhD in Linguistics', school: 'Universidade de São Paulo', years: '2018–2023' },
       { degree: "Master's in Linguistics", school: 'Universidade Federal de São Carlos', years: '2016–2018' },
       {
-        degree: "Bachelor's in Linguistics",
+        degree: "Bachelor's in Linguistics, concentration in natural language processing",
         school: 'Universidade Federal de São Carlos',
         years: '2012–2015',
       },
     ],
     projectsHeading: 'Projects',
-    projectsLead: 'Each project gets the tile its name weaves. The same name always gives the same tile.',
+    projectsLead:
+      'Each project is marked with the tile its full name weaves. Type the name into the loom below and you get the same tile back.',
     projects: [
       {
-        name: 'Support-call grader',
+        name: 'Automated support-call grader',
         where: 'Slyng, 2024–2026',
         summary:
-          'A pipeline that reads customer-support transcripts and writes a complete evaluation report, plus a review portal where analysts approve or fix the result in a few clicks. The client went from monitoring under 1% of contacts to five times the coverage with the same team, at 77% less per evaluation.',
+          'A pipeline of AI agents that reads customer-support transcripts and writes a complete evaluation report, plus a review portal where analysts approve or fix the result in a few clicks. The client went from monitoring under 1% of contacts to five times the coverage with the same team, at 77% less per evaluation.',
         stack: 'Python, LangChain, LangSmith, PostgreSQL, Azure',
         link: { label: "Case study on Slyng's site (in Portuguese)", href: LINKS.slyngCase },
       },
@@ -226,6 +227,7 @@ export const en: Content = {
       punct: 'punctuation',
       piece: 'the tail of a long word the tokenizer split off',
     },
+    whole: 'The whole sentence, woven as one tile. This is how the marker next to each project is made.',
     note: 'There is no model behind this. It uses whitespace, punctuation, a suffix list and a list of closed-class words in Portuguese, English, Spanish and French. It gets things wrong, which is a fair picture of tokenizers in general.',
     count: (tokens, closed, pieces) =>
       `${tokens} tokens, ${closed} of them function words, ${pieces} split pieces.`,

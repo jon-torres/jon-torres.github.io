@@ -1,6 +1,6 @@
 import { useId, useMemo, useState } from 'react'
 import type { Content } from '../content'
-import { COLORS, tileForToken } from '../lib/tiles'
+import { COLORS, tileFor, tileForToken } from '../lib/tiles'
 import { tokenize } from '../lib/tokenize'
 import { Tile } from './Tile'
 
@@ -67,6 +67,12 @@ export function Loom({ c }: { c: Content }) {
               </span>
             ))}
           </div>
+          <p className="whole">
+            <span className="whole__tile" aria-hidden="true">
+              <Tile tile={tileFor(text.trim())} size="100%" />
+            </span>
+            <span>{c.loom.whole}</span>
+          </p>
           <dl className="legend">
             <div>
               <dt>

@@ -65,10 +65,10 @@ function weave(h: number, hue: Hue, glyphCount = GLYPHS.length): Tile {
     : { glyph, rotation, fill: hue, ink: COLORS.black }
 }
 
-/** The same text always weaves the same tile. */
-export function tileFor(text: string): Tile {
+/** The same text always weaves the same tile. Pass a hue to fix the colour and keep only the shape from the text. */
+export function tileFor(text: string, hue?: Hue): Tile {
   const h = fnv1a(text.toLowerCase())
-  return weave(h, HUES[(h >>> 12) % HUES.length])
+  return weave(h, hue ?? HUES[(h >>> 12) % HUES.length])
 }
 
 /** Colour is data: gold for closed-class words, black for punctuation, red or green for the rest. */

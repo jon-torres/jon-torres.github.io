@@ -1,9 +1,12 @@
-import type { Content, Role } from '../content'
-import { tileFor } from '../lib/tiles'
+import type { Content, Lane, Role } from '../content'
+import { COLORS, tileFor, type Hue } from '../lib/tiles'
 import { Tile } from './Tile'
 import { Timeline } from './Timeline'
 
 const year = (ym: string) => ym.slice(0, 4)
+
+/** Job markers take the lane colour used in the chart; only the shape comes from the name. */
+const LANE_HUE: Record<Lane, Hue> = { industry: COLORS.red, research: COLORS.green, teaching: COLORS.gold }
 
 function range(r: Role, present: string) {
   const a = year(r.start)
@@ -29,7 +32,7 @@ export function Work({ c }: { c: Content }) {
                 <span className="role__when">{range(r, c.work.present)}</span>
                 <div className="role__body">
                   <h3 className="role__org">
-                    <Tile tile={tileFor(r.org)} size={26} className="marker" />
+                    <Tile tile={tileFor(r.org, LANE_HUE[r.lane])} size={26} className="marker" />
                     {r.org}
                   </h3>
                   <p className="role__title">

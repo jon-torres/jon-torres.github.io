@@ -34,8 +34,8 @@ export const pt: Content = {
     paragraphs: [
       'Passei dez anos estudando como as pessoas querem dizer as coisas: semântica formal, pragmática e o jeito como crianças que aprendem português descobrem o que o "ou" implica. Depois fui construir os sistemas que precisam lidar com tudo isso em escala.',
       'Desde 2023 trabalho com pipelines de LLM de ponta a ponta: desenho de prompts, avaliação, monitoramento, deploy e as ferramentas de revisão humana em volta deles. Na Slyng fui o primeiro contratado e construí um pipeline de monitoramento de atendimento que cortou o custo de cada análise em 77%. Na Brick Abode construí um pipeline que escreve testes unitários para linguagens procedurais do PostgreSQL. Hoje sou linguista computacional e engenheiro de PLN na Clarice.ai.',
-      'O que eu trago que a maioria dos engenheiros não traz: consigo dizer por que a saída de um modelo está errada em termos linguísticos e transformar isso numa avaliação. O que eu trago que a maioria dos linguistas não traz: eu entrego.',
-      'Fora do expediente, cozinho. E sou supervisionado por um gato preto.',
+      'A maioria dos engenheiros não consegue dizer por que a saída de um modelo está errada em termos linguísticos, muito menos transformar isso numa avaliação. Eu consigo. A maioria dos linguistas para na teoria. Eu não paro, porque também sou engenheiro, e a análise vira produto rodando.',
+      'Fora do expediente, cozinho, treino jiu-jitsu e sou supervisionado por um gato preto que, ao contrário de mim, nunca bateu.',
     ],
     photoAlt: 'Jonathan Torres, olhando para a câmera, de barba curta.',
     languagesHeading: 'Línguas que falo',
@@ -50,7 +50,7 @@ export const pt: Content = {
   },
   work: {
     heading: 'Trabalho',
-    lead: 'Dez anos de linguística, depois engenharia. As barras mostram onde cada uma começa.',
+    lead: 'Dez anos de linguística, depois engenharia.',
     laneLabels: { industry: 'Indústria', research: 'Pesquisa', teaching: 'Ensino' },
     present: 'atual',
     roles: [
@@ -106,7 +106,7 @@ export const pt: Content = {
         lane: 'research',
         location: 'São Paulo',
         bullets: [
-          'Pesquisa em aquisição de linguagem, lógica, semântica e pragmática: como crianças adquirem implicaturas escalares em português brasileiro.',
+          'Pesquisa em aquisição de linguagem, lógica, semântica e pragmática, sobre como crianças adquirem implicaturas escalares em português brasileiro.',
           'Transcrevi e revisei mais de 100 horas de áudio, que viraram um corpus anotado de fala espontânea longitudinal.',
           'Trabalhei com dados de três grandes corpora.',
         ],
@@ -159,20 +159,20 @@ export const pt: Content = {
       { degree: 'Doutorado em linguística', school: 'Universidade de São Paulo', years: '2018–2023' },
       { degree: 'Mestrado em linguística', school: 'Universidade Federal de São Carlos', years: '2016–2018' },
       {
-        degree: 'Bacharelado em linguística',
+        degree: 'Bacharelado em linguística, ênfase em processamento de linguagem natural',
         school: 'Universidade Federal de São Carlos',
         years: '2012–2015',
       },
     ],
     projectsHeading: 'Projetos',
     projectsLead:
-      'Cada projeto recebe o azulejo que o nome dele tece. O mesmo nome sempre dá o mesmo azulejo.',
+      'Cada projeto é marcado com o azulejo que o nome completo dele tece. Digite o nome no tear, mais abaixo, e o mesmo azulejo aparece.',
     projects: [
       {
-        name: 'Avaliador de atendimentos',
+        name: 'Avaliador automático de atendimentos',
         where: 'Slyng, 2024–2026',
         summary:
-          'Um pipeline que lê transcrições de atendimento ao cliente e escreve um relatório de avaliação completo, mais um portal em que os analistas aprovam ou corrigem o resultado em poucos cliques. O cliente saiu de menos de 1% dos contatos monitorados para cinco vezes a cobertura, com a mesma equipe e 77% menos custo por avaliação.',
+          'Um pipeline com agentes de IA que lê transcrições de atendimento ao cliente e escreve um relatório de avaliação completo, mais um portal em que os analistas aprovam ou corrigem o resultado em poucos cliques. O cliente saiu de menos de 1% dos contatos monitorados para cinco vezes a cobertura, com a mesma equipe e 77% menos custo por avaliação.',
         stack: 'Python, LangChain, LangSmith, PostgreSQL, Azure',
         link: { label: 'Case publicado pela Slyng', href: LINKS.slyngCase },
       },
@@ -227,6 +227,7 @@ export const pt: Content = {
       punct: 'pontuação',
       piece: 'o final de uma palavra longa que o tokenizador separou',
     },
+    whole: 'A frase inteira, tecida num azulejo só. É assim que nasce o marcador ao lado de cada projeto.',
     note: 'Não existe nenhum modelo de linguagem por trás disto, só regras. O tokenizador separa por espaços e pontuação, corta sufixos de uma lista curta e reconhece palavras de classe fechada em português, inglês, espanhol e francês. Ele erra, o que é um retrato justo dos tokenizadores em geral.',
     count: (tokens, closed, pieces) =>
       `${tokens} tokens, ${closed} palavras funcionais, ${pieces} pedaços separados.`,

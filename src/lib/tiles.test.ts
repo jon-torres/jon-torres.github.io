@@ -24,6 +24,14 @@ describe('tileFor', () => {
     expect([COLORS.red, COLORS.green, COLORS.gold, COLORS.black]).toContain(t.ink)
     expect(t.fill).not.toBe(t.ink)
   })
+  it('keeps the shape but takes the given hue when one is passed', () => {
+    const free = tileFor('Clarice.ai')
+    const fixed = tileFor('Clarice.ai', COLORS.red)
+    expect(fixed.glyph).toBe(free.glyph)
+    expect(fixed.rotation).toBe(free.rotation)
+    expect([fixed.fill, fixed.ink]).toContain(COLORS.red)
+    expect([fixed.fill, fixed.ink]).toContain(COLORS.black)
+  })
   it('spreads different words across different tiles', () => {
     const words = [
       'a',

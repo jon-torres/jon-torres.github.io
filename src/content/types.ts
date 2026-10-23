@@ -68,6 +68,7 @@ export interface Content {
     inputLabel: string
     defaultText: string
     legend: { function: string; content: string; punct: string; piece: string }
+    whole: string
     note: string
     count: (tokens: number, closed: number, pieces: number) => string
   }
