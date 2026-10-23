@@ -2,3 +2,6 @@
 node_modules
 dist
 *.local
+
+# Local-only style checker; wraps private code
+scripts/check-pt.py
